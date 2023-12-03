@@ -12,7 +12,7 @@ namespace Tyuiu.LachuginAV.Sprint6.Task0.V11.Test
         {
             DataService ds = new DataService();
             double res = ds.Calculate(2);
-            double wait = 18.4;
+            double wait = 18.4; 
             Assert.AreEqual(wait, res);
         }
     }
